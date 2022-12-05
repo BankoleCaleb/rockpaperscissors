@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Rock paper scissors game</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div>
+    
+  <button class="player-name">Change player's name</button>
+  <button class="player-name" onclick="intro()">How to play</button>
+  </div>
+  <div class="wrapper">
+  <div class="resultContainer score-div">
+    <div><span class="name">Player</span> &nbsp; <span class="score">0</span>&nbsp; -</div>
+    <div > &nbsp;<span class="score">0</span>&nbsp; Computer  &nbsp; </div>
+  </div>
+    <div class="buttons">
+      <button class="rpsButton" value="Rock" title="Rock">💎</button>
+      <button class="rpsButton" value="Paper" title="Paper">📃</button>
+      <button class="rpsButton" value="Scissors" title="Scissors">✂</button>
+    </div>
+    <div class="resultContainer">
+    <div id="player-score"></div>
+    <div id="hands"></div>
+    <div id="result"></div>
+    <button id='endGameButton' title="End game">🔴</button>
+    </div>
+  </div>
+  
+  <div class="final">
+    <div class="final-winner">
+    <button>X close</button>
+      <p class="announce-winner"></p>
+      <p></p>
+    </div>
+  </div>
+</body>
+
+</html>
+  <script src="script.js"></script>
